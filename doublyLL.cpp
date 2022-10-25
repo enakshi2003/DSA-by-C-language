@@ -26,68 +26,68 @@ int main()
 		printf("Enter a choice: \n");
 		printf("1. Creation\n");
 		printf("2. Display\n");
-        printf("3. insertion at front\n");
-        printf("4. Insertion at any point\n");
-        printf("5. Insertion at End\n");
-        printf("6. Insertion at middle\n");
-        printf("7. Delete at front\n");
-        printf("8. Delete at any point\n");
-        printf("9. Delete at End\n");
-        printf("10. Delete at middle\n");
-        printf("11. Exit point\n");
+        	printf("3. insertion at front\n");
+        	printf("4. Insertion at any point\n");
+        	printf("5. Insertion at End\n");
+        	printf("6. Insertion at middle\n");
+        	printf("7. Delete at front\n");
+        	printf("8. Delete at any point\n");
+        	printf("9. Delete at End\n");
+        	printf("10. Delete at middle\n");
+        	printf("11. Exit point\n");
 		scanf("%d",&choice);
 		switch(choice)
 		{
 			case 1:
 			{
 			    creationNode();
-				break;
+			    break;
 			}
 			case 2:
-	        {
-	            displayNode();
-				break;
-	        }
-            case 3:
-            {
-                insertionAtFront();
-                break;
-            }
-            case 4:
-            {
-                insertionAtanypoint();
-                break;
-            }
-            case 5:
-            {
-                insertAtEnd();
-                break;
-            }
-            case 6:
-            {
-                insertAtMid();
-                break;
-            }
-            case 7:
-            {
-                deleAtFront();
-                break;
-            }
-            case 8:
-            {
-                deletionAtanypoint();
-                break;
-            }
-            case 9:
-            {
-                deletionAtEnd();
-                break;
-            }
-            case 10:
-            {
-                deletionAtMid();
-                break;
-            }
+	        	{
+	            	    displayNode();
+			    break;
+	        	}
+            		case 3:
+            		{
+                	    insertionAtFront();
+                	    break;
+            		}
+            		case 4:
+            		{
+                	    insertionAtanypoint();
+                	    break;
+            		}
+            		case 5:
+            		{
+                	    insertAtEnd();
+                	    break;
+            		}
+            		case 6:
+            		{
+                	    insertAtMid();
+                	    break;
+            		}
+            		case 7:
+            		{
+                	    deleAtFront();
+                	    break;
+            		}
+            		case 8:
+            		{
+                	    deletionAtanypoint();
+                	    break;
+            		}
+            		case 9:
+            		{
+                            deletionAtEnd();
+                            break;
+            		}
+            		case 10:
+            		{
+                            deletionAtMid();
+                            break;
+            		}
 			case 11:
 			{
 				printf("Exit point");
