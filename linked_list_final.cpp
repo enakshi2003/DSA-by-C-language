@@ -43,20 +43,20 @@ int main()
 				break;
 			}
 			case 2:
-	        {
-	            displayNode();
+	        	{
+	            	   displayNode();
 				break;
-	        }
+	        	}
 			case 3:
 			{
 			   insertAtfront();
 			   break; 
 			}
 			case 4:
-	        {
-	            insertAtanypoint();
+	        	{
+	            	   insertAtanypoint();
 			    break;   
-	        }
+	        	}
 			case 5:
 			{
 				insertionAtEnd();
@@ -135,7 +135,7 @@ void displayNode()
 		while(ptr!=NULL)
 		{
 			printf("%d\n",ptr->data);
-            ptr=ptr->next;
+            		ptr=ptr->next;
 		}
 	}
 }
@@ -274,10 +274,10 @@ void deleAtanyPoint()
 	{
         printf("Enter the location you want to delete\n");
         scanf("%d",&loc);
-		temp=head;
+	temp=head;
         for(i=0;i<loc;i++)
         {
-			temp1=temp;
+	    temp1=temp;
             temp=temp->next;
             if(temp==NULL)
             {
