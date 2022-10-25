@@ -25,13 +25,13 @@ int main()
 			case 1:
 			{
 			    creationNode();
-				break;
+			    break;
 			}
 			case 2:
-	        {
-	            displayNode();
-				break;
-	        }
+	        	{
+	            	    displayNode();
+			    break;
+	        	}
 			case 3:
 			{
 			   insertAtmid();
@@ -85,7 +85,7 @@ void displayNode()
 		while(ptr!=NULL)
 		{
 			printf("%d\n",ptr->data);
-            ptr=ptr->next;
+            		ptr=ptr->next;
 		}
 	}
 }
