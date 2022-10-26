@@ -119,5 +119,4 @@ void insertAtmid()
         ptr->next=slow;
         temp->next=ptr;
     }    
-
 }
