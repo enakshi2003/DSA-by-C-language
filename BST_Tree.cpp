@@ -10,6 +10,8 @@ struct node
 	struct node *right;
 };
 struct node *root;
+
+
 void init();
 int empty();
 int insert(int);
